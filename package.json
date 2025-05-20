@@ -1,5 +1,19 @@
 {
+  "name": "practice-threejs",
+  "type": "module",
+  "version": "0.2.0",
+  "description": "ThreeJS!",
+  "repository": "https://github.com/michaelbecktl/practice-threejs.git",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
+  },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "three": "^0.176.0"
   },
   "devDependencies": {
